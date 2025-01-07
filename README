@@ -1,0 +1,14 @@
+I have downloaded the necessary packages in myenv 
+and have put in 
+
+
+
+Thus if you want to test first you build 
+
+
+For example 
+Depending on the number of hidden layer count you have in this example i have almost  4 hidden layers sections and 10 output layer 
+./build/train --sizes 784,256,128,128,128,10 --activations sigmoid,relu,sigmoid,relu,sigmoid
+
+./build/train --sizes 784,128,10 --activations sigmoid,sigmoid --epochs 100 --lr 0.1
+
